@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Just In Time. Period.</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+
+    .justcolor {
+      background-color: #fdc6d0;
+    }
+
+    .justcolor-dark {
+      background-color: #bd66bb;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar justcolor-dark">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Logo</a>
+    </div>
+  </div>
+</nav>
+  
+<div class="container-fluid text-center justcolor">    
+  <div class="row content">
+    <div class="col-sm-2 justcolor">
+    </div>
+    <div class="col-sm-8 text-left"> 
+      <h1 style="color: white;
+    font-family: serif;
+    font-size: 60px;">Just In Time. Period.</h1>
+      <p>Supplies delivered just in time for your next period.</p>
+      <hr>
+      <h3 style="text-align: center;">No More</h3>
+      <div>
+        <div class="row">
+          <div class="col-sm-3">
+            Running to the store at the last minute or late at night.
+          </div>
+          <div class="col-sm-3">
+            Not having the right type of pad/tampon on hand.
+          </div>
+          <div class="col-sm-3">
+            Putting supplies in your pockets or sleves to go to the restroom.
+          </div>
+          <div class="col-sm-3">
+            Trying ot figure out what you need each day when you are rushing out the door.
+          </div>
+        </div>
+      </div>
+      <hr>
+      <p>We're coming soon. Leave your email below to be notified when we're launched.</p>
+    </div>
+    <div class="col-sm-2 justcolor">
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid text-center justcolor-dark">
+  <p>&copy; Just In Time, Period!</p>
+</footer>
+
+</body>
+</html>
