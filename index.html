@@ -13,6 +13,14 @@
       margin-bottom: 0;
       border-radius: 0;
     }
+
+    body {
+      color: white;
+    }
+
+    .clear {
+      background-color: transparent !important;
+    }
     
     /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
     .row.content {height: 450px}
@@ -38,6 +46,19 @@
     .justcolor-dark {
       background-color: #bd66bb;
     }
+
+    #mc_embed_signup form {
+      padding: 0 !important;
+    }
+
+    #mc_embed_signup {
+      background-color: transparent !important;
+    }
+
+    #mc_embed_signup input.button {
+      color: #f145a4 !important;
+      background-color: white !important;
+    }
     
     /* On small screens, set height to 'auto' for sidenav and grid */
     @media screen and (max-width: 767px) {
@@ -49,29 +70,31 @@
     }
   </style>
 </head>
-<body>
+<body style="background-image: url('./bg.png'); background-size: cover;">
 
-<nav class="navbar justcolor-dark">
+<nav class="navbar justcolor-dark clear">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#">Logo</a>
+      <!-- <a class="navbar-brand" href="#">Logo</a> -->
     </div>
   </div>
 </nav>
   
-<div class="container-fluid text-center justcolor">    
+<div class="container-fluid text-center justcolor clear">    
   <div class="row content">
-    <div class="col-sm-2 justcolor">
+    <div class="col-sm-2 justcolor clear">
     </div>
     <div class="col-sm-8 text-left"> 
-      <h1 style="color: white;
-    font-family: serif;
-    font-size: 60px;">Just In Time. Period.</h1>
-      <p>Supplies delivered just in time for your next period.</p>
+      <h1 style="font-family: serif; font-size: 60px;">Just In Time. Period.</h1>
+      <p style="font-size: 26px;">Supplies delivered just in time for your next period.</p>
       <hr>
-      <h3 style="text-align: center;">No More</h3>
+      <h3 style="    text-align: center;
+    font-size: 32px;
+    margin-bottom: 30px;
+    margin-top: 36px;
+    font-family: serif;">No More</h3>
       <div>
-        <div class="row">
+        <div class="row" style="font-size: 18px; text-align: center;">
           <div class="col-sm-3">
             Running to the store at the last minute or late at night.
           </div>
@@ -88,13 +111,33 @@
       </div>
       <hr>
       <p>We're coming soon. Leave your email below to be notified when we're launched.</p>
+      <!-- Begin Mailchimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+  #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+  /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+     We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup">
+<form action="https://justintimeperiod.us20.list-manage.com/subscribe/post?u=4926c67c866a71f0a27410b25&amp;id=59dfe52782" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+  
+  <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_4926c67c866a71f0a27410b25_59dfe52782" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
     </div>
-    <div class="col-sm-2 justcolor">
+</form>
+</div>
+
+<!--End mc_embed_signup-->
+    </div>
+    <div class="col-sm-2 justcolor clear">
     </div>
   </div>
 </div>
 
-<footer class="container-fluid text-center justcolor-dark">
+<footer class="container-fluid text-center justcolor-dark clear">
   <p>&copy; Just In Time, Period!</p>
 </footer>
 
